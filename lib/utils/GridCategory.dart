@@ -11,10 +11,10 @@ class GridCategory extends StatelessWidget {
   Widget build(BuildContext context) {
         return Expanded(
           child: GridView.count(
-            padding: EdgeInsets.all(20),
+            padding: EdgeInsets.all(8),
             primary: false,
-            crossAxisSpacing: 20,
-            mainAxisSpacing: 20,
+            crossAxisSpacing: 8,
+            mainAxisSpacing: 8,
             crossAxisCount: 3,
             children: List.generate(
               category.length,
