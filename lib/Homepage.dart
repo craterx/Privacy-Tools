@@ -9,7 +9,26 @@ class Homepage extends StatelessWidget {
         title: Text('Privacy Tools'),
         centerTitle: true,
         elevation: 0,
-        leading: Icon(Icons.info),
+        // leading: Icon(Icons.info),
+        actions: <Widget>[
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: IconButton(
+              onPressed: () {
+                showAboutDialog(
+                  context: context,
+                  applicationLegalese: Category.messageHomePage,
+                  applicationName: "Privacy Tools",
+                  applicationVersion: "v0.1",
+                  // applicationIcon: FlutterLogo(
+                  //   // size: 35,
+                  // ),
+                );
+              },
+              icon: Icon(Icons.info),
+            ),
+          )
+        ],
       ),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
