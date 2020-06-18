@@ -1,5 +1,8 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
-import 'utils/GridCategory.dart';
+import 'package:privacy_tools/utils/Category.dart';
+import 'package:privacy_tools/utils/GridCategory.dart';
 
 class Homepage extends StatelessWidget {
   @override
@@ -37,14 +40,23 @@ class Homepage extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: Container(
-                // color: Colors.green,
-                child: Text(
-              "The primary reason for window curtains in our house, is to stop people from being able to see in. The reason we don’t want them to see in is because we consider much of what we do inside our homes to be private. Whether that be having dinner at the table, watching a movie with your kids, or even engaging in intimate or sexual acts with your partner. None of these things are illegal by any means but even knowing this, we still keep the curtains and blinds on our windows. We clearly have this strong desire for privacy when it comes to our personal life and the public.",
-              textAlign: TextAlign.justify,
-              style: TextStyle(
-                fontSize: 14,
-              ),
-            )),
+                decoration: BoxDecoration(
+                    borderRadius: BorderRadius.all(Radius.circular(8)),
+                    border: Border.all(
+                      width: 1,
+                      color: Colors.blueAccent,
+                    )),
+                // color: Colors.white12,
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Text(
+                    Category.messageHomePage,
+                    textAlign: TextAlign.justify,
+                    style: TextStyle(
+                      fontSize: 12,
+                    ),
+                  ),
+                )),
           ),
           Padding(
             padding: const EdgeInsets.all(8.0),
