@@ -9,6 +9,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Privacy Tools',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primaryColor: Colors.black,
         scaffoldBackgroundColor: Colors.black,
