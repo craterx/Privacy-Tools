@@ -1,50 +1,60 @@
 import 'dart:core';
 
 import 'package:flutter/widgets.dart';
-
-import '../testpage.dart';
+import 'package:privacy_tools/Listing.dart';
+import 'package:privacy_tools/utils/Applist.dart';
 
 class Category {
-  Category({
-    this.title = '',
-    this.imagePath = '',
-    this.navigateScreen,
-  });
-
   String title;
-  String imagePath;
-  Widget navigateScreen;
+  final Widget navigateScreen;
+
+  Category({
+    this.navigateScreen,
+    this.title = '',
+  });
 
   static List<Category> categoryList = <Category>[
     Category(
-      imagePath: 'assets/design_course/interFace1.png',
       title: 'Communication',
-      navigateScreen: TestPage(),
+      navigateScreen: Listing(
+        title: 'Communication',
+        cat: Applist.communication,
+      ),
     ),
     Category(
-      imagePath: 'assets/design_course/interFace2.png',
       title: 'Browsers',
-      navigateScreen: TestPage(),
+      navigateScreen: Listing(
+        title: 'Browsers',
+        cat: Applist.browsers,
+      ),
     ),
     Category(
-      imagePath: 'assets/design_course/interFace1.png',
       title: 'Firewall & Ad-Blocker',
-      navigateScreen: TestPage(),
+      navigateScreen: Listing(
+        title: "Firewall & Ad-blocker",
+        cat: Applist.network,
+      ),
     ),
     Category(
-      imagePath: 'assets/design_course/interFace2.png',
       title: 'Other',
-      navigateScreen: TestPage(),
+      navigateScreen: Listing(
+        title: 'Other',
+        cat: Applist.sampleapps,
+      ),
     ),
     Category(
-      imagePath: 'assets/design_course/interFace2.png',
-      title: 'Essentials',
-      navigateScreen: TestPage(),
+      title: 'Notes',
+      navigateScreen: Listing(
+        title: 'Notes',
+        cat: Applist.notes,
+      ),
     ),
     Category(
-      imagePath: 'assets/design_course/interFace2.png',
-      title: 'Tools',
-      navigateScreen: TestPage(),
+      title: 'Password Manager',
+      navigateScreen: Listing(
+        title: 'Password Manager',
+        cat: Applist.password,
+      ),
     ),
   ];
 
