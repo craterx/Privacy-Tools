@@ -1,47 +1,53 @@
 import 'package:flutter/material.dart';
 import 'package:privacy_tools/utils/category.dart';
 
-import '../testpage.dart';
+class GridCategory extends StatelessWidget {
+  const GridCategory({
+    Key key,
+    this.items,
+  }) : super(key: key);
 
-class GridCategory extends StatelessWidget { 
-
-  final category = Category.categoryList;
+  final List<Category> items;
 
   @override
   Widget build(BuildContext context) {
-        return Expanded(
-          child: GridView.count(
-            padding: EdgeInsets.all(8),
-            primary: false,
-            crossAxisSpacing: 8,
-            mainAxisSpacing: 8,
-            crossAxisCount: 3,
-            children: List.generate(
-              category.length,
+    return Expanded(
+      child: GridView.count(
+        padding: EdgeInsets.all(8),
+        primary: false,
+        crossAxisSpacing: 10,
+        childAspectRatio: 1,
+        mainAxisSpacing: 10,
+        crossAxisCount: 2,
+        children: List.generate(
+          items.length,
           (index) {
             return InkWell(
               onTap: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => TestPage()));
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => items[index].navigateScreen));
               },
-              child: Container(
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.all(Radius.circular(8)),
-                  border: Border.all(
-                    width: 1,
-                    color: Colors.blueAccent,
-                  )),
-                padding: EdgeInsets.all(8),
-                child: Center(
-                  child: Text(
-                    category[index].title,
-                    textAlign: TextAlign.center,
-                    style: TextStyle(
-                      fontSize: 14,
+              child: Card(
+                color: Colors.white10,
+                child: Container(
+                  // decoration: BoxDecoration(
+                  //   borderRadius: BorderRadius.all(Radius.circular(8)),
+                  // ),
+                  padding: EdgeInsets.all(8),
+                  child: Center(
+                    child: Text(
+                      items[index].title,
+                      textAlign: TextAlign.center,
+                      style: TextStyle(
+                        fontSize: 18,
+                      ),
+                      maxLines: 2,
                     ),
                   ),
+                  // color: Colors.white12,
                 ),
-                // color: Colors.white12,
               ),
             );
           },
