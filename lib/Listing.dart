@@ -57,7 +57,7 @@ class Listing extends StatelessWidget {
                 style: TextStyle(
                     color: Colors.white,
                     fontWeight: FontWeight.w100,
-                    fontSize: 24),
+                    fontSize: 14),
                 textAlign: TextAlign.center,
               ),
             ),
