@@ -28,7 +28,8 @@ class AppCard extends StatelessWidget {
         ),
         trailing: Padding(
           padding: const EdgeInsets.all(8.0),
-          child: Icon(Icons.more_vert),
+          child: Icon(Icons.open_in_new,
+          color: Colors.white24,),
         ),
         onTap: () async {
           if (await canLaunch(link)) {
