@@ -43,9 +43,9 @@ class Category {
       ),
     ),
     Category(
-      title: 'Notes',
+      title: 'Note Taking',
       navigateScreen: Listing(
-        title: 'Notes',
+        title: 'Note Taking',
         cat: Applist.notes,
       ),
     ),
