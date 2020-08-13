@@ -8,6 +8,8 @@ class Listing extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    var filteredList =
+        cat.where((element) => element.recommended == true).toList();
     return Scaffold(
       body: CustomScrollView(
         slivers: <Widget>[
@@ -40,11 +42,11 @@ class Listing extends StatelessWidget {
             sliver: SliverList(
                 delegate: SliverChildListDelegate(
               List.generate(
-                cat.where((element) => element.recommended == true).length,
+                filteredList.length,
                 (index) => AppCard(
-                  name: cat[index].name,
-                  description: cat[index].description,
-                  link: cat[index].link,
+                  name: filteredList[index].name,
+                  description: filteredList[index].description,
+                  link: filteredList[index].link,
                 ),
               ),
             )),
