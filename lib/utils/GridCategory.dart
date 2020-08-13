@@ -32,9 +32,6 @@ class GridCategory extends StatelessWidget {
               child: Card(
                 color: Colors.white10,
                 child: Container(
-                  // decoration: BoxDecoration(
-                  //   borderRadius: BorderRadius.all(Radius.circular(8)),
-                  // ),
                   padding: EdgeInsets.all(8),
                   child: Center(
                     child: Text(
