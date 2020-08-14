@@ -161,31 +161,33 @@ class Applist {
 
   static List<Applist> network = <Applist>[
     Applist(
-      name: "Blockada",
-      description:
-          "Firefox is fast, reliable, open-source, and respects your privacy.",
-      link: "https://play.google.com/store/apps/details?id=com.x8bit.bitwarden",
-    ),
+        name: "Blokada",
+        description:
+            "If you want to efficiently block ads, trackers, malware, save on your data plan, speed up your device and protect your privacy with just one application, then Blokada is for you. It is free, secure and open source.",
+        link: "https://blokada.org/#download",
+        recommended: true),
     Applist(
       name: "AdGuard",
       description:
-          "Tor Browser is your choice if you need an extra layer of anonymity",
-      link:
-          "https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.free",
+          " unique no root ad blocker for Android that removes ads in apps and browsers, protects your privacy, and helps you manage your apps.",
+      link: "https://adguard.com/en/adguard-android/overview.html",
     ),
     Applist(
       name: "Wireguard",
       description:
-          "Bromite is a Chromium-based browser with privacy and security enhancements, built-in adblocking and DNS over HTTPS support; it includes patches from ungoogled-chromium and other privacy-focused projects.",
+          "WireGuard is a next generation secure network tunnel protocol. This application allows users to connect to WireGuard tunnels.",
       link:
-          "https://play.google.com/store/apps/details?id=com.lesspass.android",
+          "https://play.google.com/store/apps/details?id=com.wireguard.android&hl=en_US",
     ),
     Applist(
-      name: "Outline",
+      name: "Outline VPN",
       description:
-          "Bromite is a Chromium-based browser with privacy and security enhancements, built-in adblocking and DNS over HTTPS support; it includes patches from ungoogled-chromium and other privacy-focused projects.",
+          "Outline lets news organizations easily provide their network safer access to the open internet.",
       link:
-          "https://play.google.com/store/apps/details?id=com.lesspass.android",
+          "https://play.google.com/store/apps/details?id=org.outline.android.client",
+    )
+  ];
+
     ),
     Applist(
       name: "Inbuilt Network Blocker",
