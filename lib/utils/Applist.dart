@@ -188,13 +188,24 @@ class Applist {
     )
   ];
 
+  static List<Applist> notes = <Applist>[
+    Applist(
+        name: "Joplin",
+        description:
+            "Joplin is a free, open-source, and fully-featured note-taking and to-do application which can handle a large number of markdown notes organized into notebooks and tags.",
+        link: "https://play.google.com/store/apps/details?id=net.cozic.joplin",
+        recommended: true),
+    Applist(
+      name: "Standard Notes",
+      description:
+          "It features end-to-end encryption on every platform, and a powerful desktop experience with themes and custom editors. It has also been independently audited.",
+      link: "https://play.google.com/store/apps/details?id=com.standardnotes",
     ),
     Applist(
-      name: "Inbuilt Network Blocker",
+      name: "Turtl",
       description:
-          "Bromite is a Chromium-based browser with privacy and security enhancements, built-in adblocking and DNS over HTTPS support; it includes patches from ungoogled-chromium and other privacy-focused projects.",
-      link:
-          "https://play.google.com/store/apps/details?id=com.lesspass.android",
+          "Turtl lets you take notes, bookmark websites, and store documents for sensitive projects. From sharing passwords with your coworkers to tracking research on an article you're writing, Turtl keeps it all safe from everyone but you and those you share with.",
+      link: "https://play.google.com/store/apps/details?id=com.lyonbros.turtl",
     ),
   ];
 
