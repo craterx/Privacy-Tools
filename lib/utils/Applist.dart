@@ -209,27 +209,34 @@ class Applist {
     ),
   ];
 
-  static List<Applist> notes = <Applist>[
+  static List<Applist> cloud = <Applist>[
     Applist(
-      name: "Joplin",
+      name: "NextCloud",
       description:
-          "Firefox is fast, reliable, open-source, and respects your privacy.",
-      link: "https://play.google.com/store/apps/details?id=com.x8bit.bitwarden",
-      recommended: true
+          "Joplin is a free, open-source, and fully-featured note-taking and to-do application which can handle a large number of markdown notes organized into notebooks and tags.",
+      link: "https://play.google.com/store/apps/details?id=net.cozic.joplin",
     ),
     Applist(
-      name: "Standard Notes",
+      name: "Syncthing",
       description:
-          "Tor Browser is your choice if you need an extra layer of anonymity",
+          "Syncthing replaces proprietary sync and cloud services with something open, trustworthy and decentralized.",
       link:
-          "https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.free",
+          "https://play.google.com/store/apps/details?id=com.github.catfriend1.syncthingandroid",
+      recommended: true,
     ),
     Applist(
-      name: "Simple Note",
+      name: "Firefox Send",
       description:
-          "Bromite is a Chromium-based browser with privacy and security enhancements, built-in adblocking and DNS over HTTPS support; it includes patches from ungoogled-chromium and other privacy-focused projects.",
+          "Firefox Send uses end-to-end encryption to keep your data secure from the moment you share to the moment your file is opened.",
       link:
-          "https://play.google.com/store/apps/details?id=com.lesspass.android",
+          "https://play.google.com/store/apps/details?id=org.mozilla.firefoxsend",
+    ),
+    Applist(
+      name: "OpenKeychain: Easy PGP",
+      description:
+          "OpenKeychain stores and manages your keys, and those of the people you communicate with, on your Android smartphone",
+      link:
+          "https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain",
     ),
   ];
 }
