@@ -107,27 +107,32 @@ class Applist {
 
   static List<Applist> communication = <Applist>[
     Applist(
-      name: "Signal",
-      description:
-          "provides instant messaging, as well as voice and video calling.",
-      link:
-          "https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms",
-      recommended: true
-
-    ),
+        name: "Signal",
+        description:
+            "Provides instant messaging, as well as voice and video calling.",
+        link:
+            "https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms",
+        recommended: true),
     Applist(
       name: "Jitsi Meet",
       description:
-          "Tor Browser is your choice if you need an extra layer of anonymity",
+          "Secure, fully featured, and completely free video conferencing app.",
       link: "https://play.google.com/store/apps/details?id=org.jitsi.meet",
-      recommended: true
     ),
     Applist(
-      name: "Bromite",
+      name: "Element",
       description:
-          "Bromite is a Chromium-based browser with privacy and security enhancements, built-in adblocking and DNS over HTTPS support; it includes patches from ungoogled-chromium and other privacy-focused projects.",
-      link: "https://www.bromite.org/fdroid",
+          "All-in-one secure chat app for teams, friends and organisations. Element (formerly Riot) is the reference client for the Matrix network.",
+      link: "https://play.google.com/store/apps/details?id=im.vector.app",
     ),
+    Applist(
+      name: "K-9 Mail",
+      description:
+          "K-9 Mail is an open-source email client for Android.",
+      link: "https://play.google.com/store/apps/details?id=com.fsck.k9",
+      recommended: true,
+    ),
+
   ];
 
   static List<Applist> password = <Applist>[
