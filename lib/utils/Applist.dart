@@ -12,98 +12,60 @@ class Applist {
   });
 
   static List<Applist> apps = <Applist>[
+  static List<Applist> others = <Applist>[
     Applist(
-      name: "sample",
-      description: "description",
-      link: "https://google.com",
+      name: "F-Droid",
+      description:
+          "F-Droid is an installable catalogue of FOSS (Free and Open Source Software) applications for the Android platform.",
+      link: "https://f-droid.org/",
+      recommended: true,
     ),
     Applist(
-      name: "sample",
-      description: "description",
-      link: "https://www.google.com",
+      name: "Scrambled Exif",
+      description:
+          "Scrambled Exif (pronounced eggsif) helps you remove the metadata in your pictures before you share them.",
+      link:
+          "https://play.google.com/store/apps/details?id=com.jarsilio.android.scrambledeggsif",
+      recommended: true,
     ),
     Applist(
-      name: "sample",
-      description: "description",
-      link: "https://www.google.com",
+      name: "Warden",
+      description:
+          "Disable all trackers across the whole device or per app automatically.",
+      link: "https://auroraoss.com/app_info.php?app_id=3",
+      recommended: true,
     ),
     Applist(
-      name: "sample",
-      description: "description",
-      link: "https://google.com",
+      name: "GNU Privacy Guard",
+      description:
+          "GnuPG allows you to encrypt and sign your data and communications; it features a versatile key management system, along with access modules for all kinds of public key directories. ",
+      link:
+          "https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain",
     ),
     Applist(
-      name: "sample",
-      description: "description",
-      link: "https://google.com",
+      name: "Bromite Systemless Webview",
+      description:
+          "This package contains the core browser/rendering engine of Bromite and its same features; it offers the possibility to replace the default browser component for the whole Android system.",
+      link: "https://www.bromite.org/system_web_view",
     ),
     Applist(
-      name: "sample",
-      description: "description",
-      link: "https://google.com",
+      name: "Aurora Droid",
+      description: "FOSS client for Google PlayStore",
+      link: "https://auroraoss.com/app_info.php?app_id=1",
     ),
     Applist(
-      name: "sample",
-      description: "description",
-      link: "https://google.com",
+      name: "Aegis",
+      description:
+          "free, secure and open source app to manage your 2-step verification tokens for your online services.",
+      link:
+          "https://play.google.com/store/apps/details?id=com.beemdevelopment.aegis",
     ),
     Applist(
-      name: "sample",
-      description: "description",
-      link: "https://google.com",
-    ),
-    Applist(
-      name: "sample",
-      description: "description",
-      link: "https://google.com",
-    ),
-  ];
-
-  static List<Applist> sampleapps = <Applist>[
-    Applist(
-      name: "sample1",
-      description: "description",
-      link: "https://google.com",
-    ),
-    Applist(
-      name: "sample2",
-      description: "description",
-      link: "https://www.google.com",
-    ),
-    Applist(
-      name: "sample3",
-      description: "description",
-      link: "https://www.google.com",
-    ),
-    Applist(
-      name: "sample",
-      description: "description",
-      link: "https://google.com",
-    ),
-    Applist(
-      name: "sample",
-      description: "description",
-      link: "https://google.com",
-    ),
-    Applist(
-      name: "sample",
-      description: "description",
-      link: "https://google.com",
-    ),
-    Applist(
-      name: "sample",
-      description: "description",
-      link: "https://google.com",
-    ),
-    Applist(
-      name: "sample",
-      description: "description",
-      link: "https://google.com",
-    ),
-    Applist(
-      name: "sample",
-      description: "description",
-      link: "https://google.com",
+      name: "andOTP",
+      description: "Open source two-factor authentication for Android",
+      link:
+          "https://play.google.com/store/apps/details?id=org.shadowice.flocke.andotp",
+      recommended: true,
     ),
   ];
 
