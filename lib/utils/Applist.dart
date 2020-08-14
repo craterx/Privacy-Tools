@@ -137,11 +137,12 @@ class Applist {
 
   static List<Applist> password = <Applist>[
     Applist(
-      name: "Bitwarden",
-      description:
-          "Firefox is fast, reliable, open-source, and respects your privacy.",
-      link: "https://play.google.com/store/apps/details?id=com.x8bit.bitwarden",
-    ),
+        name: "Bitwarden",
+        description:
+            "Firefox is fast, reliable, open-source, and respects your privacy.",
+        link:
+            "https://play.google.com/store/apps/details?id=com.x8bit.bitwarden",
+        recommended: true),
     Applist(
       name: "KeepassXC",
       description:
