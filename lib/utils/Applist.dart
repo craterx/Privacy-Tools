@@ -71,11 +71,17 @@ class Applist {
 
   static List<Applist> browsers = <Applist>[
     Applist(
-      name: "Firefox",
+        name: "Firefox",
+        description:
+            "Firefox is fast, reliable, open-source, and respects your privacy.",
+        link:
+            "https://play.google.com/store/apps/details?id=org.mozilla.firefox",
+        recommended: true),
+    Applist(
+      name: "Firefox Nightly",
       description:
-          "Firefox is fast, reliable, open-source, and respects your privacy.",
-      link: "https://play.google.com/store/apps/details?id=org.mozilla.firefox",
-      recommended: true
+          "Firefox Nightly is designed to showcase the more experimental builds of Firefox.",
+      link: "https://play.google.com/store/apps/details?id=org.mozilla.fenix",
     ),
     Applist(
       name: "Tor Browser",
@@ -89,6 +95,13 @@ class Applist {
       description:
           "Bromite is a Chromium-based browser with privacy and security enhancements, built-in adblocking and DNS over HTTPS support; it includes patches from ungoogled-chromium and other privacy-focused projects.",
       link: "https://www.bromite.org/fdroid",
+      recommended: true,
+    ),
+    Applist(
+      name: "Ungoogled-Chromium",
+      description:
+          "Ungoogled-Chromium-Android is the Android version of Ungoogle-Chromium. A lightweight approach to removing Google web service dependency.",
+      link: "https://uc.droidware.info/",
     ),
   ];
 
