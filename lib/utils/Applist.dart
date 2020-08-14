@@ -4,14 +4,8 @@ class Applist {
   String link;
   bool recommended = false;
 
-  Applist({
-    this.name,
-    this.description,
-    this.link,
-    this.recommended
-  });
+  Applist({this.name, this.description, this.link, this.recommended});
 
-  static List<Applist> apps = <Applist>[
   static List<Applist> others = <Applist>[
     Applist(
       name: "F-Droid",
