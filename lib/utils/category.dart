@@ -77,6 +77,6 @@ The primary reason for window curtains in our house, is to stop people from bein
   static String whyMessage =
       "Private and state-sponsored organizations are monitoring and recording your online activities. We belive that Users should be aware of all the services and tools that help them make an informed decision regarding safegauding their privacy. This app is our humble effort towards acheiving our goal.";
   // TODO: replace links
-  static String githubLink = "https://github.com/anoop-b";
+  static String githubLink = "https://github.com/craterx/Privacy-Tools";
   static String playstoreLink = "https://play.google.com/store?hl=en_US";
 }
