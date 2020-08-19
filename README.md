@@ -1,6 +1,7 @@
 # Welcome to Privacy Guide 👋
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#)
 
+![](./thumbnail.png)
 > Flutter app to help you find tools, services and knowledge to protect your privacy.
 
 ## Install
