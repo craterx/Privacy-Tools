@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:privacy_tools/utils/category.dart';
+import 'category.dart';
 
 class GridCategory extends StatelessWidget {
   const GridCategory({

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:privacy_tools/utils/category.dart';
+import 'utils/category.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class About extends StatelessWidget {

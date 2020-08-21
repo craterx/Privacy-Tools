@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:privacy_tools/shared/AppCard.dart';
+import 'shared/AppCard.dart';
 
 class Listing extends StatelessWidget {
   const Listing({Key key, this.cat, this.title}) : super(key: key);

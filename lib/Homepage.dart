@@ -1,9 +1,9 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:privacy_tools/About.dart';
-import 'package:privacy_tools/utils/GridCategory.dart';
-import 'package:privacy_tools/utils/category.dart';
+import 'About.dart';
+import 'utils/GridCategory.dart';
+import 'utils/category.dart';
 
 class Homepage extends StatefulWidget {
   @override

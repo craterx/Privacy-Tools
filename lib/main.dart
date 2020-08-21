@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:privacy_tools/Homepage.dart';
 import 'Homepage.dart';
 
 void main() => runApp(MyApp());

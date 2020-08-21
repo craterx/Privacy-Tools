@@ -1,8 +1,8 @@
 import 'dart:core';
 
 import 'package:flutter/widgets.dart';
-import 'package:privacy_tools/Listing.dart';
-import 'package:privacy_tools/utils/Applist.dart';
+import '../Listing.dart';
+import 'Applist.dart';
 
 class Category {
   String title;
